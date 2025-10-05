@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/8aca7404-d2e3-4166-889a-b9fef71d3d26/resourceGroups/DjangoIS2Julian_group/providers/Microsoft.Web/sites/DjangoIS2Julian",
+    "appService.deploySubpath": "."
+}
