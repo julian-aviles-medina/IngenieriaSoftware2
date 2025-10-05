@@ -4,3 +4,4 @@ from . import models
 admin.site.register(models.Cruise)
 admin.site.register(models.Destination)
 admin.site.register(models.InfoRequest)
+#
