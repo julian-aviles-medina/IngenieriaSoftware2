@@ -85,7 +85,7 @@ DATABASES = {
         "ENGINE": "django.db.backends.postgresql",
         "NAME": "julianIS2_produccion",
         "USER": "juldes",
-        "PASSWORD": "!Jamb2004*",
+        "PASSWORD": "!Jamb2004",
         "HOST": "djangois2julian-server.postgres.database.azure.com",
         "PORT": "5432",
     }
