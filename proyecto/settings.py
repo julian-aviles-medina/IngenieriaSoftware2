@@ -80,11 +80,16 @@ DATABASES = {
     }
 }
 
-# Si existe DATABASE_URL (en Azure), la usa
-DATABASE_URL = os.environ.get("DATABASE_URL")
-if DATABASE_URL:
-    DATABASES["default"] = dj_database_url.parse(DATABASE_URL, conn_max_age=600, ssl_require=True)
-
+DATABASES = {
+    "default": {
+        "ENGINE": "django.db.backends.postgresql",
+        "NAME": "julianIS2_produccion",
+        "USER": "juldes",
+        "PASSWORD": "!Jamb2004*",
+        "HOST": "djangois2julian-server.postgres.database.azure.com",
+        "PORT": "5432",
+    }
+}
 #a
 # Password validation
 # https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators
